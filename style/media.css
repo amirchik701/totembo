@@ -1,3 +1,13 @@
+@media (max-width:1400px) {
+    .latest_right {
+        border-radius: 10px;
+    }
+
+    .latest_right {
+        border-radius: 10px;
+    }
+}
+
 @media(max-width:1341px) {
     .leaders__content {
         grid-template-columns: repeat(2, 1fr);
@@ -17,7 +27,7 @@
     }
 
     .nav__right {
-        margin-top: 20px;
+        margin-left: 10px;
     }
 
     .leaders__content {
@@ -25,6 +35,12 @@
 
     }
 
+}
+
+@media(max-width:1100px) {
+    .nav__right {
+        margin-top: 10px;
+    }
 }
 
 @media(max-width: 1107px) {
@@ -221,7 +237,57 @@
 
 }
 
-@media(max-width:545px) {}
+@media(max-width:541px) {
+    .footer_contacts_text {
+        text-align: center;
+    }
+}
+
+@media (max-width:422px) {
+    .leaders__card {
+        padding: 72px 57px 39px
+    }
+
+    .heart_icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .basket_icon {
+        width: 55px;
+        height: 55px;
+        top: 89px;
+    }
+
+}
+
+@media(max-width:340px) {
+    .footer__content {
+        text-align: center;
+
+    }
+
+    .footer_number {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .footer_contacts_text {
+        text-align: center;
+    }
+
+    .foot__nav_list {
+        margin-top: 20px;
+    }
+
+    .footer_goods_title {
+        font-size: 30px;
+    }
+
+
+
+}
 
 
 @media(max-width:375px) {}
@@ -243,57 +309,68 @@
     }
 
     .heart_icon {
-        width: 40px;
-        height: 40px;
+        width: unset;
+        height: unset;
         position: absolute;
         top: 24px;
         right: 10px;
-        background: #E1E1E1;
+        background: #ffff;
+        padding: 10px;
 
+
+    }
+
+    .heart_icon img {
+        width: 15px;
     }
 
 
     .basket_icon {
-        width: 40px;
-        height: 40px;
+        width: unset;
+        height: unset;
         position: absolute;
         top: 85px;
         right: 10px;
-        background: #E1E1E1;
+        background: #ffff;
+        padding: 10px;
 
     }
 
-    .latest_news_title{
+    .basket_icon img {
+        width: 16px;
+    }
+
+    .latest_news_title {
         text-align: center;
     }
 
-    
-    .rec{
+
+    .rec {
         padding: 90px 0px 40px 10px;
     }
-    
-    .leaders__card_title{
-       
+
+    .leaders__card_title {
+
         text-transform: none;
     }
-    
-    .leaders__card_info{
+
+    .leaders__card_info {
         align-items: center;
     }
-    
-    .footer_number{
+
+    .footer_number {
         flex-direction: column;
     }
-    
-    .footer_contacts_text{
+
+    .footer_contacts_text {
         text-align: center;
     }
-    
-    .foot__nav_list{
-     align-items: center;      
+
+    .foot__nav_list {
+        align-items: center;
     }
-    
-    
+
+
     .block_1_1_desc {
         display: flex;
         flex-direction: column;
@@ -330,7 +407,7 @@
         /* padding-top: 55px;
         padding-bottom: 15px; */
     }
-    
+
     .block_1>div {
         position: relative;
     }
